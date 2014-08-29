@@ -1,0 +1,230 @@
+#pinterest-input{
+	width: 300px!important;
+	border-bottom-width: 1px!important;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(196, 196, 196);
+	display: block!important;
+  margin-top: 10px!important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#apply-black-button{margin-top:35px!important;float:none!important;}
+#apply { padding: 20px 30px 10px; }
+#apply > h3 { font-size: 16px; margin: 0; padding-bottom: 5px; margin-top:40px;}
+#apply .error, #apply .warning { margin: 15px 0 0; width: 510px; }
+
+#apply label { display:inline-block;width: 91px; font-family: 'Syncopate-Regular', 'Syncopate', sans-serif !important; font-size: 12px; text-transform:uppercase; text-align: right; color:black; margin: 28px 20px 0 20px; text-transform: uppercase;}
+#apply input.text { display: inline-block;
+width: 330px;
+font: 1.2em 'garamond-italic', 'Hoefler Titling A', 'Hoefler Titling B', 'IM Fell Double Pica', serif;
+font-style: italic;
+color: #333;
+/*border: none;*/
+padding: 6px 8px;
+margin: 20px 0 0 0;
+/*text-align: center;*/
+/*background-color: #efefef;*/
+}
+#apply input.button-pink-lg { margin: 30px 0 0 0; }
+#apply.sent p { margin: 20px 0 0; padding: 0; }
+div#popup{
+border:none!important;
+-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+#apply a.close { position: absolute; top: 2px; right: 4px; font-size: 1.2em; text-decoration: none; padding: 5px;}
+#apply a.close:hover { color: #E6003d; }
+div#popup{width: 600px!important;min-height: 725px;left: 50%!important; top: 100px!important;
+margin-left: -300px;}
+.pair{display:block;}
+.text-center-header{
+	font:1.2em 'Syncopate-Regular','Gotham A', 'Gotham B', sans-serif !important;
+	margin-top:50px;
+	display:block;
+	text-transform: uppercase;
+}
+.text-center-content span{
+	padding-top:5px;
+	font-style:italic;
+	font-size:1em!important;
+	font-family:'Gotham A', 'Gotham B', sans-serif !important;
+}
+.text-center-content{padding:5px;font-size:1.2em;font-family:'Gotham A', 'Gotham B', sans-serif;}
+.social-row{
+	display:block;
+	width: 300px;
+	height: 50px;
+	margin-bottom: 15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.social-row div{display:inline-block;width:50px;height:50px;padding:10px;}
+.twitter-active{
+	background:url(../images/login-assets/twitter-active.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/twitter-active-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.twitter-inactive{
+	background:url(../images/login-assets/twitter-normal.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/twitter-normal-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+.facebook-active{
+	background:url(../images/login-assets/facebook-active.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/facebook-active-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.facebook-inactive{
+	background:url(../images/login-assets/facebook-normal.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/facebook-normal-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+.instagram-active{
+	background:url(../images/login-assets/insta-active.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/insta-active-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.instagram-inactive{
+	background:url(../images/login-assets/insta-normal.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/insta-normal-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+.tumbler-active{
+	background:url(../images/login-assets/tumblr-active.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/tumblr-active-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.tumbler-inactive{
+	background:url(../images/login-assets/tumblr-normal.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/tumblr-normal-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+.google-active{
+	background:url(../images/login-assets/google-active.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/google-active-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.google-inactive{
+	background:url(../images/login-assets/google-normal.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/google-normal.svg);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+.pinterest-active{
+	background:url(../images/login-assets/pinterest-active.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/pinterest-active-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.pinterest-inactive{
+	background:url(../images/login-assets/pinterest-normal.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/pinterest-normal-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+.weibo-active{
+	background:url(../images/login-assets/weibo-active.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/weibo-active-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.weibo-inactive{
+	background:url(../images/login-assets/weibo-normal.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/weibo-normal-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+.youtube-active{
+	background:url(../images/login-assets/youtube-active.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/youtube-active-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.youtube-inactive{
+	background:url(../images/login-assets/youtube-normal.png) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/login-assets/youtube-normal-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+.vk-active{
+  background:url(../images/login-assets/vk-icon-black.png) center no-repeat;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.vk-inactive{
+  background:url(../images/login-assets/vk-icon-white.png) center no-repeat;
+  background-position:center;
+  background-repeat:no-repeat;  
+}
+.location-box{
+	display:none;	
+	/*height: 295px;
+	overflow-y: scroll;
+	border: 1px solid black;
+	z-index: 1;
+	background-color: white;
+	position:absolute;
+	margin-left:117px;
+	margin-top: -14px!important;
+	padding-top: 20px;
+	padding-left: 10px;*/
+}
+
+.add-pinterest{
+	display: none;
+	width: 300px;
+	height: 130px;
+	position: relative;
+	margin-top: -125px;
+	margin-left: 120px;
+	background:url(../images/App_and_Homepage_imgs/social-icon-blur.jpg) center no-repeat;
+	background-image:url(https://assets.rewardstyle.com/images/App_and_Homepage_imgs/social-icon-blur-01.svg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#pinterest-black-button{
+  float: left;
+	font-size:12px!important;
+	margin-top:2px;
+	width: 60px!important;
+	height: 24px!important;
+	padding-bottom: 5px;
+	padding-top: 5px!important;
+}
+#pinterest-cancel-button{
+padding-left: 11px;
+padding-right: 0px;
+display: block;
+font-size: 12px!important;
+margin-top: 2px;
+width: 62px!important;
+height: 12px!important;
+padding-bottom: 5px;
+padding-top: 5px!important;
+margin-left: 5px;
+float: left;
+}
+.pinterest-header{
+	display: block;
+	text-align: left;
+	padding-top: 35px;
+	border-bottom: 1px solid #c4c4c4;
+	width: 300px;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	text-transform: uppercase;
+}
+#apply #archive-2 {
+	width: 318px;
+	position: relative;
+	top: 10px;
+}

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.PinItButton {
+    background: url("../images/pinit6.png") repeat scroll 0 -7px transparent;
+    color: #CD1F1F;
+    font: 0.01em Arial,sans-serif;
+    height: 20px;
+    position: absolute;
+    text-indent: -9999em;
+    width: 43px;
+}
+.PinItButton:hover {
+    background-position: 0 -28px;
+}
+.PinItButton:active {
+    background-position: 0 -49px;
+}
+.PinItButton.pinned {
+    background-position: 0 -70px !important;
+}
+#CountPointer {
+    background: url("../images/pinit6.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 0.01em;
+    position: absolute;
+    text-indent: -9999em;
+    z-index: 1;
+}
+#CountBubble {
+    background-color: #FCF9F9;
+    border: 1px solid #C9C5C5;
+    border-radius: 1px 1px 1px 1px;
+    color: #777777;
+    position: absolute;
+}
+body.horizontal #CountPointer {
+    background-position: -43px -8px;
+    height: 18px;
+    left: 43px;
+    width: 4px;
+}
+body.horizontal #CountBubble {
+    display: inline-block;
+    font: 10px Arial,Helvetica,sans-serif;
+    height: 10px;
+    left: 46px;
+    padding: 2px 5px 4px;
+    top: 1px;
+}
+body.vertical #PinItButton {
+    top: 38px;
+}
+body.vertical #CountPointer {
+    background-position: 0 0;
+    height: 7px;
+    top: 31px;
+    width: 41px;
+}
+body.vertical #CountBubble {
+    font: 12px/12px Arial,Helvetica,sans-serif;
+    height: 21px;
+    left: 1px;
+    padding: 9px 0 0;
+    text-align: center;
+    width: 39px;
+}
+body.none #PinItCount {
+    display: none;
+}
+
