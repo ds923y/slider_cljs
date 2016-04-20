@@ -9,7 +9,7 @@ lein cljsbuild clean;
 lein cljsbuild hello-world`
 
 #to run 
-click on 
+click on index.html if your browser will render and load local files (file:///), otherwise deploy to a webserver (http://localhost).
 
 
 
